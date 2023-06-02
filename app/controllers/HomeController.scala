@@ -3,7 +3,6 @@ package controllers
 import play.api._
 import play.api.libs.json._
 import play.api.mvc._
-import play.api.mvc._
 
 import javax.inject._
 
@@ -26,5 +25,12 @@ class HomeController @Inject() (val controllerComponents: ControllerComponents)
     )
 
     Ok(jsonObject).as(JSON)
+  }
+
+  def message(): Action[JsValue] = Action(parse.json) {
+    request: Request[JsValue] =>
+      val jsonBody: JsValue = request.body
+      val message = (jsonBody \ "message").as[String]
+      Ok(message)
   }
 }
