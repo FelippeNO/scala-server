@@ -1,0 +1,226 @@
+2023.06.02 09:01:59 INFO  Started: Metals version 0.11.12 in workspace 'D:\Documents2\GitHub\first-project' for client Visual Studio Code 1.78.2.
+jun. 02, 2023 9:01:59 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+jun. 02, 2023 9:01:59 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+jun. 02, 2023 9:01:59 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+jun. 02, 2023 9:01:59 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Documents2\GitHub\first-project\.metals\metals (H2 2.1)
+jun. 02, 2023 9:01:59 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+jun. 02, 2023 9:01:59 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.013s)
+jun. 02, 2023 9:01:59 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+jun. 02, 2023 9:01:59 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+jun. 02, 2023 9:01:59 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+jun. 02, 2023 9:01:59 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+jun. 02, 2023 9:01:59 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+jun. 02, 2023 9:01:59 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+jun. 02, 2023 9:01:59 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.045s)
+2023.06.02 09:01:59 INFO  time: initialize in 0.57s
+2023.06.02 09:02:02 WARN  Build server is not auto-connectable.
+2023.06.02 09:02:02 WARN  no build target for: D:\Documents2\GitHub\first-project\app\controllers\HomeController.scala
+2023.06.02 09:02:22 INFO  running 'C:\Program Files\Java\jdk-18.0.1.1\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\felip\AppData\Local\Temp\metals2592233478543859634\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.06.02 09:02:22 ERROR [info] [launcher] getting org.scala-sbt sbt 1.7.2  (this may take some time)...
+2023.06.02 09:02:27 INFO  no build target found for D:\Documents2\GitHub\first-project\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.02 09:02:29 INFO  time: code lens generation in 24s
+2023.06.02 09:02:54 ERROR [info] [launcher] getting Scala 2.12.16 (for sbt)...
+2023.06.02 09:02:59 INFO  [info] welcome to sbt 1.7.2 (Oracle Corporation Java 18.0.1.1)
+2023.06.02 09:03:07 INFO  [info] loading settings for project first-project-build-build-build from metals.sbt ...
+2023.06.02 09:03:10 INFO  [info] loading project definition from D:\Documents2\GitHub\first-project\project\project\project
+2023.06.02 09:03:14 INFO  [info] loading settings for project first-project-build-build from metals.sbt ...
+2023.06.02 09:03:14 INFO  [info] loading project definition from D:\Documents2\GitHub\first-project\project\project
+2023.06.02 09:03:24 INFO  [success] Generated .bloop\first-project-build-build.json
+2023.06.02 09:03:24 INFO  [success] Total time: 9 s, completed 2 de jun. de 2023 09:03:24
+2023.06.02 09:03:25 INFO  [info] loading settings for project first-project-build from metals.sbt,plugins.sbt ...
+2023.06.02 09:03:25 INFO  [info] loading project definition from D:\Documents2\GitHub\first-project\project
+2023.06.02 09:04:09 INFO  [success] Generated .bloop\first-project-build.json
+2023.06.02 09:04:09 INFO  [success] Total time: 44 s, completed 2 de jun. de 2023 09:04:10
+2023.06.02 09:04:12 INFO  [info] loading settings for project root from build.sbt ...
+2023.06.02 09:04:12 INFO  [info]   __              __
+2023.06.02 09:04:12 INFO  [info]   \ \     ____   / /____ _ __  __
+2023.06.02 09:04:12 INFO  [info]    \ \   / __ \ / // __ `// / / /
+2023.06.02 09:04:12 INFO  [info]    / /  / /_/ // // /_/ // /_/ /
+2023.06.02 09:04:12 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /
+2023.06.02 09:04:12 INFO  [info]       /_/               /____/
+2023.06.02 09:04:12 INFO  [info] 
+2023.06.02 09:04:12 INFO  [info] Version 2.8.19 running Java 18.0.1.1
+2023.06.02 09:04:12 INFO  [info] 
+2023.06.02 09:04:12 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:
+2023.06.02 09:04:12 INFO  [info] https://www.playframework.com/sponsors
+2023.06.02 09:04:12 INFO  [info] 
+2023.06.02 09:04:12 INFO  [info] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2023.06.02 09:04:12 INFO  [info]   Java version is 18. Play supports only 8, 11 and, experimentally, 17.
+2023.06.02 09:04:12 INFO  [info] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2023.06.02 09:04:12 INFO  [info] 
+2023.06.02 09:05:49 INFO  [success] Generated .bloop\root.json
+2023.06.02 09:05:49 INFO  [success] Generated .bloop\root-test.json
+2023.06.02 09:05:49 INFO  [success] Total time: 96 s (01:36), completed 2 de jun. de 2023 09:05:49
+2023.06.02 09:05:49 INFO  time: ran 'sbt bloopInstall' in 3m27s
+2023.06.02 09:05:49 INFO  Attempting to connect to the build server...
+2023.06.02 09:05:49 INFO  Setting up current java home C:\Program Files\Java\jdk-18.0.1.1 in C:\Users\felip\.bloop\bloop.json
+2023.06.02 09:06:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents2\GitHub\first-project\.metals\bsp.trace.json or C:\Users\felip\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.02 09:06:38 INFO  Attempting to connect to the build server...
+2023.06.02 09:06:38 INFO  Bloop uses C:\Program Files\Java\jdk-18.0.1.1 defined at C:\Users\felip\.bloop\bloop.json
+2023.06.02 09:06:38 INFO  Attempting to connect to the build server...
+2023.06.02 09:06:38 INFO  Bloop uses C:\Program Files\Java\jdk-18.0.1.1 defined at C:\Users\felip\.bloop\bloop.json
+2023.06.02 09:06:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents2\GitHub\first-project\project\.metals\bsp.trace.json or C:\Users\felip\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.02 09:06:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents2\GitHub\first-project\project\project\.metals\bsp.trace.json or C:\Users\felip\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.02 09:06:58 ERROR Timeout waiting for 'build/initialize' response
+2023.06.02 09:06:58 WARN  Retrying connection to the build server Bloop
+2023.06.02 09:06:58 INFO  Bloop uses C:\Program Files\Java\jdk-18.0.1.1 defined at C:\Users\felip\.bloop\bloop.json
+2023.06.02 09:06:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents2\GitHub\first-project\project\.metals\bsp.trace.json or C:\Users\felip\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.02 09:06:58 INFO  time: Connected to build server in 1m8s
+2023.06.02 09:06:58 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.02 09:06:58 INFO  time: Imported build in 0.29s
+2023.06.02 09:07:27 INFO  time: indexed workspace in 28s
+2023.06.02 09:08:30 INFO  compiling root (7 scala sources and 1 java source)
+2023.06.02 09:08:54 INFO  time: compiled root in 24s
+2023.06.02 09:08:54 INFO  compiling root (8 scala sources and 1 java source)
+2023.06.02 09:09:00 INFO  time: compiled root in 6.05s
+2023.06.02 09:09:15 INFO  compiling root (1 scala source)
+2023.06.02 09:09:16 INFO  time: compiled root in 1.6s
+2023.06.02 09:10:39 INFO  compiling root (3 scala sources and 1 java source)
+2023.06.02 09:10:39 INFO  time: compiled root in 0.53s
+jun. 02, 2023 9:11:49 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.06.02 09:12:28 INFO  compiling root (3 scala sources and 1 java source)
+2023.06.02 09:12:28 INFO  time: compiled root in 0.42s
+2023.06.02 09:12:28 INFO  compiling root (3 scala sources and 1 java source)
+2023.06.02 09:12:28 INFO  time: compiled root in 0.36s
+2023.06.02 09:12:36 WARN  Could not load snapshot text for D:\Documents2\GitHub\first-project\target\scala-2.13\routes\main\router\Routes.scala
+2023.06.02 09:12:42 WARN  Could not load snapshot text for D:\Documents2\GitHub\first-project\target\scala-2.13\routes\main\router\Routes.scala
+2023.06.02 09:13:07 INFO  compiling root (3 scala sources and 1 java source)
+2023.06.02 09:13:07 INFO  time: compiled root in 0.35s
+2023.06.02 09:14:52 INFO  compiling root (3 scala sources and 1 java source)
+2023.06.02 09:14:52 INFO  time: compiled root in 0.23s
+2023.06.02 09:14:58 INFO  compiling root (8 scala sources and 1 java source)
+2023.06.02 09:14:58 INFO  time: compiled root in 0.32s
+2023.06.02 09:15:14 INFO  compiling root (8 scala sources and 1 java source)
+2023.06.02 09:15:14 INFO  time: compiled root in 0.29s
+2023.06.02 09:15:38 INFO  compiling root (8 scala sources and 1 java source)
+2023.06.02 09:15:38 INFO  time: compiled root in 0.24s
+jun. 02, 2023 9:15:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 190
+2023.06.02 09:15:51 INFO  compiling root (8 scala sources and 1 java source)
+2023.06.02 09:15:51 INFO  time: compiled root in 0.32s
+2023.06.02 09:16:01 INFO  Can not organize imports if file has error
+2023.06.02 09:16:02 INFO  compiling root (8 scala sources and 1 java source)
+2023.06.02 09:16:02 INFO  time: compiled root in 0.25s
+2023.06.02 09:16:09 INFO  compiling root (8 scala sources and 1 java source)
+2023.06.02 09:16:09 INFO  time: compiled root in 0.42s
+2023.06.02 09:16:09 INFO  compiling root (8 scala sources and 1 java source)
+2023.06.02 09:16:10 INFO  time: compiled root in 0.49s
+2023.06.02 09:16:22 INFO  compiling root (7 scala sources and 1 java source)
+2023.06.02 09:16:22 INFO  time: compiled root in 0.23s
+2023.06.02 09:16:22 INFO  compiling root (7 scala sources and 1 java source)
+2023.06.02 09:16:22 INFO  time: compiled root in 0.16s
+2023.06.02 09:16:29 WARN  Could not load snapshot text for D:\Documents2\GitHub\first-project\target\scala-2.13\routes\main\router\Routes.scala
+2023.06.02 09:16:29 INFO  compiling root (7 scala sources and 1 java source)
+2023.06.02 09:16:29 INFO  time: compiled root in 0.19s
+2023.06.02 09:16:29 WARN  Could not load snapshot text for D:\Documents2\GitHub\first-project\target\scala-2.13\routes\main\router\Routes.scala
+2023.06.02 09:16:44 WARN  Could not load snapshot text for D:\Documents2\GitHub\first-project\target\scala-2.13\routes\main\router\Routes.scala
+jun. 02, 2023 9:16:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 315
+2023.06.02 09:16:44 INFO  compiling root (7 scala sources and 1 java source)
+2023.06.02 09:16:44 INFO  time: compiled root in 0.19s
+2023.06.02 09:16:53 INFO  compiling root (7 scala sources and 1 java source)
+2023.06.02 09:16:53 INFO  time: compiled root in 0.24s
+2023.06.02 09:16:54 INFO  compiling root (7 scala sources and 1 java source)
+2023.06.02 09:16:54 INFO  time: compiled root in 0.21s
+2023.06.02 09:16:54 INFO  compiling root (7 scala sources and 1 java source)
+2023.06.02 09:16:54 INFO  time: compiled root in 0.15s
+2023.06.02 09:17:00 INFO  compiling root (7 scala sources and 1 java source)
+2023.06.02 09:17:00 INFO  time: compiled root in 0.22s
+2023.06.02 09:17:09 INFO  compiling root (7 scala sources and 1 java source)
+2023.06.02 09:17:09 INFO  time: compiled root in 0.17s
+2023.06.02 09:17:22 WARN  Could not load snapshot text for D:\Documents2\GitHub\first-project\target\scala-2.13\routes\main\router\Routes.scala
+2023.06.02 09:17:22 INFO  compiling root (7 scala sources and 1 java source)
+2023.06.02 09:17:22 INFO  time: compiled root in 0.18s
+2023.06.02 09:17:22 WARN  Could not load snapshot text for D:\Documents2\GitHub\first-project\target\scala-2.13\routes\main\router\Routes.scala
+2023.06.02 09:17:37 INFO  compiling root (7 scala sources and 1 java source)
+2023.06.02 09:17:37 INFO  time: compiled root in 0.16s
+2023.06.02 09:17:38 WARN  Attempt to organize your imports failed. It looks like you have compilation issues causing your semanticdb to be stale. Ensure everything is compiling and try again.
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.11.1/metaconfig-typesafe-config_2.13-0.11.1.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.pom
+2023.06.02 09:17:40 INFO  compiling root (7 scala sources and 1 java source)
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.11.1/metaconfig-typesafe-config_2.13-0.11.1.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.pom
+2023.06.02 09:17:40 INFO  time: compiled root in 0.17s
+2023.06.02 09:17:40 WARN  Attempt to organize your imports failed. It looks like you have compilation issues causing your semanticdb to be stale. Ensure everything is compiling and try again.
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.11.1/metaconfig-typesafe-config_2.13-0.11.1.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.11.1/metaconfig-typesafe-config_2.13-0.11.1.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.jar
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.jar (87,09 %, 1051008 / 1206765)
+https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.jar (81,61 %, 666624 / 816833)
+https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.jar (33,72 %, 830464 / 2462819)
+https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.jar (30,21 %, 631360 / 2089950)
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.jar (13,50 %, 793950 / 5879344)
+
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.jar
+2023.06.02 09:18:16 INFO  compiling root (7 scala sources and 1 java source)
+2023.06.02 09:18:16 INFO  time: compiled root in 0.19s
+2023.06.02 09:19:31 INFO  compiling root (7 scala sources and 1 java source)
+2023.06.02 09:19:31 INFO  time: compiled root in 0.17s
+2023.06.02 09:20:01 INFO  compiling root (7 scala sources and 1 java source)
+2023.06.02 09:20:01 INFO  time: compiled root in 0.22s
+jun. 02, 2023 9:20:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 501
+2023.06.02 09:20:47 INFO  compiling root (7 scala sources and 1 java source)
+2023.06.02 09:20:47 INFO  time: compiled root in 0.15s
+2023.06.02 09:21:01 INFO  compiling root (7 scala sources and 1 java source)
+2023.06.02 09:21:01 INFO  time: compiled root in 0.17s
+2023.06.02 09:24:30 WARN  no build target for: D:\Documents2\GitHub\first-project\build.sc
+2023.06.02 09:24:30 INFO  compiling root (7 scala sources and 1 java source)
+2023.06.02 09:24:33 INFO  time: compiled root in 3.42s
+2023.06.02 09:24:41 INFO  time: code lens generation in 2.78s
+jun. 02, 2023 9:25:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 564
+2023.06.02 09:25:55 INFO  compiling root (1 scala source)
+2023.06.02 09:25:55 INFO  time: compiled root in 0.65s
+jun. 02, 2023 9:28:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 660
+jun. 02, 2023 9:28:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 670
+jun. 02, 2023 9:28:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 680
+2023.06.02 09:29:17 INFO  compiling root (1 scala source)
+2023.06.02 09:29:17 INFO  time: compiled root in 0.69s
+jun. 02, 2023 9:30:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 791
+2023.06.02 09:53:02 WARN  Could not load snapshot text for D:\Documents2\GitHub\first-project\app\controllers\HomeController.scala
+2023.06.02 09:53:02 INFO  compiling root (1 scala source)
+2023.06.02 09:53:02 INFO  time: compiled root in 0.71s
